@@ -1,0 +1,23 @@
+:root{
+    --branco: white;
+    --corDeFundo:#00162E;
+    --fundoSenha: #00244D;
+    --fundoDeTexto: #001E40;
+    --borda: #0075ff;
+    --roboto: "Roboto", sans-serif;
+    --robotoMono: "Roboto Mono", monospace;
+}
+
+
+body{
+    color: var(--branco);
+    background-color: var(--corDeFundo);
+}
+
+.titulo-principal{
+    font-family: var(--roboto);
+}
+
+.titulo-secundario{
+    font-family: var(--robotoMono);
+}
